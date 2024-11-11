@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+img{
+    width: 130px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 12px;
+    font-weight:bold;
+    transition: 0.7s;
+}
+ul li:hover{
+    color: rgb(74,210,173);
+}
+ul li:first-child{
+    color: rgb(74,210,173);
+}
+
+@media (max-width:360px){
+
+
+}

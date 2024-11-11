@@ -1,0 +1,43 @@
+.heroBox{
+    background-image: url(../assets/Img/heroImg.jpg);
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    padding-top:70px ; 
+    padding-left:30px ;
+    box-sizing: border-box;
+    font: bold; 
+    text-transform: uppercase;
+}
+.heroBox h1{
+    color: white;
+    font-size: 50px;
+}
+.heroBox h3{
+    color: white;
+    font-size: 20px;
+  
+}
+button{
+    background-color: #4CAF50;
+    height: 50px;
+    width: 200px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font: bold;
+    border-radius: 20px; 
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+span{
+    background-color: black;
+    height: 500px;
+    width: 70px;
+    margin-left: 40px;
+}
+.icon{
+    color: white;
+    padding: 10px;
+}
