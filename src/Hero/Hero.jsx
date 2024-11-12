@@ -22,10 +22,10 @@ const Hero = () => {
 
         <div className='numberContainer'>
             <ol>
-                <li>100 <br />PROJECTS ANNUALLY</li>
-                <li>45<br />AWARDS</li>
-                <li>98%<br />POSIVTIVE REWARDS </li>
-                <li>147K <br />HAPPY CUSTOMERS</li>
+                <li>100 <br /> <span>PROJECTS ANNUALLY</span></li>
+                <li>45<br /><span>AWARDS</span></li>
+                <li>98%<br /> <span>POSIVTIVE REWARDS</span> </li>
+                <li>147K <br /> <span>HAPPY CUSTOMERS</span></li>
             </ol>
         </div>
 
