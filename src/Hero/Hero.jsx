@@ -21,12 +21,29 @@ const Hero = () => {
         {/* second layer with numbers */}
 
         <div className='numberContainer'>
-            <ol>
-                <li>100 <br /> <span>PROJECTS ANNUALLY</span></li>
-                <li>45<br /><span>AWARDS</span></li>
-                <li>98%<br /> <span>POSIVTIVE REWARDS</span> </li>
-                <li>147K <br /> <span>HAPPY CUSTOMERS</span></li>
-            </ol>
+               {/* column 1 */}
+                <div>
+                    <h1>100</h1>
+                    <div>PROJECTS ANNUALLY</div>
+                </div>
+            
+            {/* column 2 */}
+                <div>
+                    <h1>45</h1>
+                    <div>AWARDS</div>
+                </div>
+            {/* column 3 */}
+                <div>
+                    <h1>98%</h1>
+                    <div>POSIVTIVE REWARDS</div>
+                </div>
+
+              {/* column 4 */}
+                <div>
+                    <h1>147k</h1>
+                    <div>HAPPY CUSTOMERS</div>
+                </div>
+                
         </div>
 
       
